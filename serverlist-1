@@ -1,8 +1,6 @@
 # Frozen Bubble SDL2 - Public Server List
-# Format: host port
-# Same format as the original frozen-bubble.org/servers/serverlist-1
-# Add your server below (one per line):
-10.0.0.107 1511
-76.143.85.200 1511
-fb.servequake.com 1511
-fb.servequake.com 443
+# Format: host:port  Display name (optional)
+# Browser clients (itch.io) need port 443 (WSS); desktop/Android use port 1511 (TCP).
+# Add your server below — list both ports if you support browser clients:
+fb.servequake.com:1511  fb.servequake.com (desktop/Android)
+fb.servequake.com:443   fb.servequake.com (browser/itch.io)
