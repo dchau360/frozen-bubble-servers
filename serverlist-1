@@ -2,5 +2,5 @@
 # Format: host:port  Display name (optional)
 # Browser clients (itch.io) need port 443 (WSS); desktop/Android use port 1511 (TCP).
 # Add your server below — list both ports if you support browser clients:
-fb.servequake.com:1511  fb.servequake.com (desktop/Android)
-fb.servequake.com:443   fb.servequake.com (browser/itch.io)
+fb.servequake.com:1511  fb.servequake.com
+fb.servequake.com:443   fb.servequake.com (itch.io)
