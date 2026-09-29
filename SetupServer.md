@@ -202,7 +202,7 @@ Discord from its own UI, so an alert channel is a good deal more public
 than it used to be. The country flag is the one location-adjacent signal
 that *is* included — it's roughly the granularity a public server list
 already shows, not the finer position behind the lobby's world map — see
-[server/discord-relay/README.md](server/discord-relay/README.md) if you'd
+[server/discord-relay/README.md](https://github.com/dchau360/frozen-bubble-sdl3/blob/main/server/discord-relay/README.md) if you'd
 rather drop it.
 
 The same relay also posts a message at the end of every round: the game
@@ -247,7 +247,7 @@ webhook URL, which only you as the operator can obtain.
 > DISCORD_SERVER_NAME=fb.example.org
 > ```
 >
-> See [server/discord-relay/README.md](server/discord-relay/README.md#live-delivery).
+> See [server/discord-relay/README.md](https://github.com/dchau360/frozen-bubble-sdl3/blob/main/server/discord-relay/README.md#live-delivery).
 
 **Nothing breaks if you skip this.** Joins still happen normally; the alert
 just never fires. The relay is also entirely optional — remove
@@ -291,7 +291,7 @@ issued you a URL so your server's joins show up alongside everyone else's,
 set that as `DISCORD_WEBHOOK_URL` here and nothing else changes. Running
 your own channel and posting to someone else's are the same one-variable
 setup — see
-[server/discord-relay/README.md](server/discord-relay/README.md) if you are
+[server/discord-relay/README.md](https://github.com/dchau360/frozen-bubble-sdl3/blob/main/server/discord-relay/README.md) if you are
 on the issuing end.
 
 > **Don't want to stand up your own Discord for this?** If you're running a
@@ -304,7 +304,7 @@ on the issuing end.
 > as `DISCORD_WEBHOOK_URL` above and nothing else about your setup changes.
 > Each server gets its own webhook, not a shared credential, so one server's
 > access can be revoked later without touching anyone else's — see
-> [Collecting joins from servers you don't run](server/discord-relay/README.md#collecting-joins-from-servers-you-dont-run)
+> [Collecting joins from servers you don't run](https://github.com/dchau360/frozen-bubble-sdl3/blob/main/server/discord-relay/README.md#collecting-joins-from-servers-you-dont-run)
 > for exactly what that does and doesn't grant.
 
 A burst of joins can hit Discord's per-webhook rate limit; a request that
@@ -338,7 +338,7 @@ reported (empty for one that reported none, e.g. a pre-1.4 client), plus a
 win-count chart and a bubbles-popped chart underneath.
 
 <p align="center">
-  <img src="docs/screenshots/discord-round-stats.jpg" alt="Discord round-result message: winner, roster with platform/input badges, a win-count chart, and a bubbles-popped chart" width="480">
+  <img src="https://raw.githubusercontent.com/dchau360/frozen-bubble-sdl3/main/docs/screenshots/discord-round-stats.jpg" alt="Discord round-result message: winner, roster with platform/input badges, a win-count chart, and a bubbles-popped chart" width="480">
 </p>
 
 **The winner name is not verified.** It's exactly what the reporting
@@ -402,7 +402,7 @@ set. See `CLAUDE.md`'s "Round-result lobby broadcast" for the details.
 > result for a room already in progress just opens a new one, no worse than
 > every room got before this existed.
 
-See [server/discord-relay/README.md](server/discord-relay/README.md) for the
+See [server/discord-relay/README.md](https://github.com/dchau360/frozen-bubble-sdl3/blob/main/server/discord-relay/README.md) for the
 protocol and internals.
 
 ### Weekly rankings
