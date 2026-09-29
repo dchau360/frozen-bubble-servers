@@ -1,6 +1,6 @@
 # Frozen Bubble — Public Server List
 
-Community-maintained list of public servers for [Frozen Bubble SDL3](https://github.com/dchau360/frozen-bubble-sdl3). The game fetches this list automatically on startup so players can find servers without entering an IP manually.
+Community-maintained list of public servers for Frozen Bubble — both [Frozen Bubble SDL3](https://github.com/dchau360/frozen-bubble-sdl3) and the older [Frozen Bubble SDL2](https://github.com/dchau360/frozen-bubble-sdl2). Both games fetch this list automatically on startup so players can find servers without entering an IP manually.
 
 ---
 
