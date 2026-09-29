@@ -1,4 +1,4 @@
-# Frozen Bubble SDL2 - Public Server List
+# Frozen Bubble SDL3 - Public Server List
 # Format: host:port  Display name (optional)
 # Browser clients (itch.io) need port 443 (WSS); desktop/Android use port 1511 (TCP).
 # Add your server below — list both ports if you support browser clients:
