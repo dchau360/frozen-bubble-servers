@@ -1,6 +1,6 @@
 # Frozen Bubble — Public Server List
 
-Community-maintained list of public servers for [Frozen Bubble SDL2](https://github.com/dchau360/frozen-bubble-sdl2). The game fetches this list automatically on startup so players can find servers without entering an IP manually.
+Community-maintained list of public servers for [Frozen Bubble SDL3](https://github.com/dchau360/frozen-bubble-sdl3). The game fetches this list automatically on startup so players can find servers without entering an IP manually.
 
 ---
 
@@ -37,10 +37,14 @@ If your server supports both, add two lines — one for each port. Players on na
 
 See [SetupServer.md](SetupServer.md) for step-by-step instructions covering:
 
-- Docker Compose setup (fb-server + nginx)
+- Docker Compose setup: fb-server, nginx (TLS for browser players, plus the project's website on port 443), and an optional Discord relay
 - Getting a free SSL certificate with Let's Encrypt
+- Optional Discord alerts: player joins, round results, and weekly rankings
+- Limiting concurrent bots, online tournaments, and handling abuse reports
 - Connecting native and browser clients
-- Certificate renewal
+- Updating the server and renewing the certificate
+
+`SetupServer.md` here is copied automatically from the [frozen-bubble-sdl3](https://github.com/dchau360/frozen-bubble-sdl3/blob/main/SetupServer.md) repo whenever it changes there. To suggest an edit, open a pull request against that repo, not this one — changes made here are overwritten on the next sync.
 
 ---
 
